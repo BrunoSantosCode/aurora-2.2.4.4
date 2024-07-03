@@ -37,6 +37,10 @@
     state: present
   become: yes
 
+- name: Debug ansible_interfaces of first dhcp host
+  debug:
+    var: hostvars[groups['dhcp'][0]]['ansible_interfaces']
+
 - name: Get dhcp_interface_name
   set_fact:
     dhcp_interface_name: "{{ hostvars[groups['dhcp'][0]]['ansible_interfaces'] | select('match','eth') | list | first }}"
