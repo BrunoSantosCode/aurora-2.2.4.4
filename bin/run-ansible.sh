@@ -102,11 +102,10 @@ then
     fi
 fi
 
-echo "HERE"
 
 echo "================================================================="
 echo "|                                                               |"
-echo "|                 Shadow Ansible bootstraper                    |"
+echo "|                 Shadow Ansible bootstraper HERE                    |"
 echo "|                                                               |"
 echo "================================================================="
 echo ""
