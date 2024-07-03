@@ -105,7 +105,7 @@ fi
 
 echo "================================================================="
 echo "|                                                               |"
-echo "|                 Shadow Ansible bootstraper HERE                    |"
+echo "|                 Shadow Ansible bootstraper                    |"
 echo "|                                                               |"
 echo "================================================================="
 echo ""
